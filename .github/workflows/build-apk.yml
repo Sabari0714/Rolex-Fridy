@@ -3,6 +3,8 @@ name: Build Android Lab APK
 on:
   push:
     branches: [main]
+  issues:
+    types: [opened]
   workflow_dispatch:
 
 jobs:
